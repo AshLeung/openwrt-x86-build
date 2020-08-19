@@ -1,7 +1,7 @@
 name: Build OpenWrt
 on: push
 jobs:
-  build:
+  build-x86:
     runs-on: ubuntu-latest
     steps:
     - name: Installation depends
